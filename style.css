@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0); 
+    background-image: url("bg.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 20%;  
+    background-position: top;
+    
+}
+
+
+
+header{
+    align-items: center;
+    padding: 8rem;
+}
+
+
+
+h1{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.me{
+    font-size: 80px;
+}
+
+h2{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+}
+
+h3{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0%;
+    padding: 2rem;
+}
+
+h4{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 6rem;
+    padding-top: 2rem;
+}
+
+
+
+.icon{
+    border-radius: 50px;
+}
+.figma{
+    border-radius: 25px;
+}
+
+.iframe{
+    border-radius: 15px;
+}
+
+nav{
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 5rem;
+    transition: 0.3s;
+
+}
+
+nav ul li a:hover{
+    color: rgb(144, 146, 148);
+}
+
+.active{
+    color: rgb(144, 146, 148);
+}
+
+
+
+section.container a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    transition: 0.3s;
+
+}
+
+
+.pic:hover{
+    opacity: 0.5;
+}
+
+.web{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    transition: 0.3s;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+
+.web:hover{
+    opacity: 0.5;
+}
+
+.aboutme{
+    width: 35%;
+    height: 35%;
+    display:flexbox;
+    transition: 0.3s;
+    padding-top: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.resume{
+    width: 80%;
+    height: 80%;
+    display:flexbox;
+    transition: 0.3s;
+    padding-top: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+section.box a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media screen and(max-width:650px) {
+    nav ul{
+        flex-direction: column;
+
+    }
+    
+}
